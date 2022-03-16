@@ -4,10 +4,7 @@ block content
         .row.justify-content-center
             .col-lg-6.container3.text-white.p-5
                 .container4
-                    h3.text-center
-                        | One 
-                        span.spn $1 
-                        | can Save a life.
+                
                 .container.pt-3
                     form(name='myForm', action='/paystack/pay', method='POST')
                         input#name(type='text', name='full_name', placeholder='Full Nname')
@@ -20,4 +17,4 @@ block content
                             option(value='1000') 1000
                             option(value='2000') 2000
                         .bttn.pt-2
-                            button(type='submit') DONATE
+                            button(type='submit') Pay Now
